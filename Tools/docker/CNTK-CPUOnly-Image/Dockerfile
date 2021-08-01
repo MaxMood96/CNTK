@@ -5,7 +5,7 @@
 # To build, run from the parent with the command line:
 # 	docker build -t <image name> -f CNTK-CPUOnly-Image/Dockerfile .
 
-FROM ubuntu:16.04
+FROM ubuntu:xenial-20210416
 
 RUN apt-get update && apt-get install -y --no-install-recommends \
         autotools-dev \
