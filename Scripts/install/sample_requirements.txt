@@ -8,3 +8,4 @@ pip>=8.1.2
 seaborn>=0.7.1
 six>=1.10.0
 gym>=0.5.2 
+setuptools>=65.5.1 # not directly required, pinned by Snyk to avoid a vulnerability
